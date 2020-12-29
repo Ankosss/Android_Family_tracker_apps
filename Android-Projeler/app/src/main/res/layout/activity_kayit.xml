@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingTop="100dp"
+    android:paddingRight="20dp"
+    tools:context=".Kayit">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:foregroundGravity="left"
+            android:gravity="left"
+            android:text="Kullanıcı adı: "
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="200dp"
+            android:layout_height="35dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:layout_alignParentRight="true"
+            android:drawableLeft="@drawable/ic_baseline_person_24"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Şifre: "
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="200dp"
+            android:layout_height="35dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:layout_alignParentRight="true"
+            android:drawableLeft="@drawable/ic_baseline_lock_24"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="Tekrar Şifre: "
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/repassword"
+            android:layout_width="200dp"
+            android:layout_height="35dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:layout_alignParentRight="true"
+            android:drawableLeft="@drawable/ic_baseline_lock_24"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:inputType="textMultiLine"
+            android:textColor="@color/white"
+            android:lines="15"
+            android:minLines="6"
+            android:gravity="top|left"
+            android:maxLines="10"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:scrollbars="vertical"
+            android:textSize="15sp"
+            android:text='"MOBİL UYGULAMA KULLANICI SÖZLEŞMESİ
+        MADDE 1– TARAFLAR
+        İşbu sözleşme ve ekleri (EK-1 Gizlilik Sözleşmesi) “Kavacık Mahallesi, Ertürk Sokak, No:1 K 1 Plaza Kavacık/İstanbul” adresinde mukim “Sodexo Avantaj ve Ödüllendirme Hizmetleri Anonim Şirketi” (bundan böyle "Sodexo" olarak anılacaktır) ile Sodexo mobil uygulamalarından iş bu sözleşmede belirtilen koşullar dahilinde yararlanan Kullanıcı ile karşılıklı olarak kabul edilerek yürürlüğe girmiştir.
+
+        MADDE 2– TANIMLAR
+        2.1. Uygulama: Sodexo isimli mobil uygulama tüm mobil cihazlarda çalışan mobil uygulama yazılımı ve bu yazılım ile bağlantılı olarak oluşturulan ürün ve hizmetlerin sunulduğu tüm sanal gerçeklik mecralarını ifade etmektedir. (Bundan böyle "Uygulama" olarak anılacaktır.)
+        2.2. Kullanıcı: Uygulamadan Sodexo tarafından sunulan hizmetlerden işbu sözleşmede belirtilen koşullar dahilinde yararlanan kişileri ifade etmektedir. (Bundan böyle "Kullanıcı” olarak anılacaktır.)
+        2.3. Sisteme Erişim Araçları: Kullanıcının hesabını yönetim sayfası, Uygulamaya erişim sağlayan kullanıcı adı, şifre, kod, parola gibi yalnızca Kullanıcının bilgisinde olan bilgileri ifade eder.
+        2.4. İletişim Kanalları: Anında bildirim, e-posta, sms, mms, telefon ile bildirim gibi iletişim mecralarını ifade eder.
+        2.5. Mesaj: Sodexo’nun, Kullanıcılara pazarlama, araştırma, bilgilendirme vb. amaçlarla göndereceği, Kullanıcıların Sodexo tarafından kendilerine gönderilmesine izin verdikleri mesajları ifade eder.
+        2.6. Kullanıcı Hesabı Yönetim Sayfası: Kullanıcının yalnızca sisteme erişim araçlarını kullanarak ulaştığı üyeliğine ilişkin iş ve işlemlerde bulunduğu kendisine özel web sayfasını ifade etmektedir. (Bundan böyle kısaca "Portal" olarak anılacaktır.)
+        MADDE 3– KONU VE KAPSAM
+        3.1. İşbu sözleşmenin konusu; Kullanıcıya yönelik olarak uygulamada mevcut olan ve ileride Sodexo tarafından sunulacak tüm ürün ve hizmetlerin, bu ürün ve hizmetlerden yararlanma şartlarının ve tarafların hak ve yükümlülüklerinin tespitidir.
+        3.2. Kullanıcı, işbu sözleşme hükümlerini kabul etmekle, Uygulama ve Portal içinde yer alan kullanıma, üyeliğe ve hizmetlere ilişkin Sodexo tarafından açıklanan her türlü beyanı da kabul etmiş olmaktadır. Kullanıcı, bahsi geçen beyanlarda belirtilen her türlü hususa uygun olarak davranacağını kabul, beyan ve taahhüt eder.
+        MADDE 4– UYGULAMA KULLANIM ŞARTLARI
+
+        4.1. Reşit olmayan veya tüzel kişi üyeler için tüzel kişiyi temsil ve ilzam etmeye yetkili olmayan kişiler kanalıyla yapılan başvurular, kayıt işlemlerini tamamlamış olsa dahi "Kullanıcının" doğurduğu haklardan yararlanamazlar. Aksi yöndeki talep ve işlemler Sodexo’nun sorumluğunda değildir.
+        4.2. Sodexo, her zaman herhangi bir gerekçe göstermeden, herhangi bir bildirimde bulunmadan ve herhangi bir tazminat ödeme yükümlülüğü bulunmadan ve derhal yürürlüğe girecek şekilde işbu sözleşmeyi tek taraflı olarak feshedebilir ve Kullanıcının işbu Uygulamadan yararlanmasına son verebilir.
+        MADDE 5– KARŞILIKLI HAK VE YÜKÜMLÜLÜKLER
+        5.1. Kullanıcı Hak ve Yükümlülükleri:
+
+        a) Kullanıcı, kullanıcı prosedürlerini yerine getirirken, Uygulamadaki ürün veya hizmetlerden faydalanırken ve Uygulamadaki ürün veya hizmetler ile ilgili herhangi bir işlemi yerine getirirken işbu sözleşme içerisinde yer alan tüm şartlara, Sodexo internet sitesinde belirtilen kurallara ve yürürlükteki tüm mevzuata uygun hareket edeceğini, işbu sözleşmede belirtilen tüm şart ve kuralları okuduğunu, anladığını ve onayladığını kabul eder.
+        b) Kullanıcı, Sodexo’nun yasal mevzuat gereği resmi makamlara açıklama yapmakla yükümlü olduğu durumlarda, resmi makamlarca usulü dairesinde bu bilgilerin talep edilmesi halinde, Kullanıcılara ait, Uygulama dahilinde edinilen bilgileri resmi makamlara açıklamaya yetkili olacağını ve bu sebeple kendisinden her ne nam altında olursa olsun tazminat talep edilemeyeceğini kabul eder.
+        c) Kullanıcı, Sodexo’nun iş bu Sözleşme konusu ürün ve hizmetleri ifasına yönelik olarak ve/veya bu amaçla anlaşma akdettiği iş ortaklarına, Kullanıcıya ait ticari bilgileri açıklamaya yetkili olacağını, bu hususu kabul ettiğini beyan ederek bu sebeple Sodexo’dan her ne nam altında olursa olsun tazminat talep edilemeyeceğini kabul eder.
+        d) Kullanıcı, Uygulamaya erişmek için kullandığı Sisteme Erişim Araçlarını (kullanıcı adı, şifre, kod gibi) gizli tutmakla yükümlüdür. Sisteme Erişim Araçlarını kullanma hakkı münhasıran Kullanıcıya aittir. Kullanıcı işbu bilgilerini üçüncü şahıslara ifşa etmeyecektir. Sisteme Erişim Araçlarının üçüncü bir şahıs tarafından kullanımının sonuçlarından tamamı ile Kullanıcı sorumludur. Sodexo, bu gibi usulsüz kullanımları yapan kişilerin kimliklerini tespit etmekle yükümlü değildir. Kullanıcı, yukarıda belirtilen hükümler saklı kalmak kaydıyla, işbu bilgilerinin üçüncü bir şahıs tarafından kullanımından ve bunun neticelerinden kendisinin sorumlu olduğunu, işbu bilgilerin kullanımı suretiyle yapılan işlemlerin kendisini bağlayıcı olduğunu kabul, beyan ve taahhüt eder. Kullanıcı, şifresinin başkalarınca ele geçirildiğini öğrendiği takdirde Sodexo’yu derhal bilgilendirmekle yükümlüdür.
+        e) Kullanıcı, Uygulama dahilinde kendisi tarafından sağlanan bilgilerin ve içeriklerin doğru ve hukuka uygun olduğunu kabul ve taahhüt eder. Sodexo, Kullanıcı tarafından Sodexo’ya iletilen veya Uygulama üzerinden kendisi tarafından yüklenen, değiştirilen ve sağlanan bilgilerin ve içeriklerin doğruluğunu araştırma, bu bilgi ve içeriklerin güvenli, doğru ve hukuka uygun olduğunu taahhüt ve garanti etmekle yükümlü ve sorumlu olmadığı gibi, söz konusu bilgi ve içeriklerin yanlış veya hatalı olmasından dolayı ortaya çıkacak hiçbir zarardan da sorumlu değildir.
+        f) Kullanıcı, kendine ait Portal’dan yapılan tüm işlemlerin münhasıran ve müstakilen kendisi tarafından gerçekleştirildiğini kabul, beyan ve taahhüt eder. Kullanıcı, Sodexo’ya verdiği iletişim kanallarının yalnızca kendisine ait ve yalnızca kendi kontrolü altındaki iletişim kanalları olduğunu ve bu iletişim kanallarını aktif olarak kullandığını taahhüt eder. Aksi halde, Kullanıcı iletişim kanallarının üyenin kendisine ait olmamasından veya İletişim Kanallarını aktif olarak kullanmamasından dolayı Sodexo’nun uğrayabileceği her türlü maddi ve manevi zararı tazminle yükümlü olacaktır.
+        ' />
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+
+            android:id="@+id/register"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Kayıt"
+            android:textColor="@color/white"
+            android:background="#fff"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="90dp"
+            />
+    </RelativeLayout>
+
+
+</LinearLayout>
